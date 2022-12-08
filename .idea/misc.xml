@@ -4,8 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/seane/projects/WordleClone/app/src/main/res/drawable/box.xml" value="0.2625" />
+        <entry key="..\:/Users/seane/projects/WordleClone/app/src/main/res/drawable/boxGuess.xml" value="0.1" />
+        <entry key="..\:/Users/seane/projects/WordleClone/app/src/main/res/drawable/boxguess.xml" value="0.1" />
+        <entry key="..\:/Users/seane/projects/WordleClone/app/src/main/res/drawable/buttonshape.xml" value="0.1" />
         <entry key="..\:/Users/seane/projects/WordleClone/app/src/main/res/drawable/key.xml" value="0.2025" />
         <entry key="..\:/Users/seane/projects/WordleClone/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/seane/projects/WordleClone/app/src/main/res/xml/button.xml" value="0.20185185185185187" />
         <entry key="app/src/main/res/drawable/box.xml" value="0.211" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2006340579710145" />
       </map>

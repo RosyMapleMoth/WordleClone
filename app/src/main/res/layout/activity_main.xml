@@ -34,7 +34,7 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_margin="2dp"
-                android:background="@drawable/box"
+                android:background="@drawable/boxguess"
                 android:fontFamily="sans-serif"
                 android:gravity="center_horizontal|center_vertical"
                 android:textAlignment="center"
@@ -47,7 +47,7 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_margin="2dp"
-                android:background="@drawable/box"
+                android:background="@drawable/boxguess"
                 android:fontFamily="sans-serif"
                 android:gravity="center_horizontal|center_vertical"
                 android:textAlignment="center"
@@ -60,7 +60,7 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_margin="2dp"
-                android:background="@drawable/box"
+                android:background="@drawable/boxguess"
                 android:fontFamily="sans-serif"
                 android:gravity="center_horizontal|center_vertical"
                 android:textAlignment="center"
@@ -73,7 +73,7 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_margin="2dp"
-                android:background="@drawable/box"
+                android:background="@drawable/boxguess"
                 android:fontFamily="sans-serif"
                 android:gravity="center_horizontal|center_vertical"
                 android:textAlignment="center"
@@ -86,7 +86,8 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_margin="2dp"
-                android:background="@drawable/box"
+                android:autoText="true"
+                android:background="@drawable/boxguess"
                 android:fontFamily="sans-serif"
                 android:gravity="center_horizontal|center_vertical"
                 android:textAlignment="center"
@@ -113,6 +114,7 @@
                 android:background="@drawable/box"
                 android:gravity="center_horizontal|center_vertical"
                 android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="28sp"
                 android:textStyle="bold" />
 
@@ -125,6 +127,7 @@
                 android:background="@drawable/box"
                 android:gravity="center_horizontal|center_vertical"
                 android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="28sp"
                 android:textStyle="bold" />
 
@@ -137,6 +140,7 @@
                 android:background="@drawable/box"
                 android:gravity="center_horizontal|center_vertical"
                 android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="28sp"
                 android:textStyle="bold" />
 
@@ -149,6 +153,7 @@
                 android:background="@drawable/box"
                 android:gravity="center_horizontal|center_vertical"
                 android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="28sp"
                 android:textStyle="bold" />
 
@@ -161,6 +166,7 @@
                 android:background="@drawable/box"
                 android:gravity="center_horizontal|center_vertical"
                 android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="28sp"
                 android:textStyle="bold" />
 
@@ -180,6 +186,7 @@
                 android:layout_margin="2dp"
                 android:background="@drawable/box"
                 android:gravity="center_horizontal|center_vertical"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="28sp"
                 android:textStyle="bold" />
 
@@ -189,6 +196,7 @@
                 android:layout_margin="2dp"
                 android:background="@drawable/box"
                 android:gravity="center_horizontal|center_vertical"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="28sp"
                 android:textStyle="bold" />
 
@@ -198,6 +206,7 @@
                 android:layout_margin="2dp"
                 android:background="@drawable/box"
                 android:gravity="center_horizontal|center_vertical"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="28sp"
                 android:textStyle="bold" />
 
@@ -207,6 +216,7 @@
                 android:layout_margin="2dp"
                 android:background="@drawable/box"
                 android:gravity="center_horizontal|center_vertical"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="28sp"
                 android:textStyle="bold" />
 
@@ -216,6 +226,7 @@
                 android:layout_margin="2dp"
                 android:background="@drawable/box"
                 android:gravity="center_horizontal|center_vertical"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="28sp"
                 android:textStyle="bold" />
 
@@ -236,6 +247,7 @@
                 android:background="@drawable/box"
                 android:gravity="center_horizontal|center_vertical"
                 android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="28sp"
                 android:textStyle="bold" />
 
@@ -246,6 +258,7 @@
                 android:background="@drawable/box"
                 android:gravity="center_horizontal|center_vertical"
                 android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="28sp"
                 android:textStyle="bold" />
 
@@ -256,6 +269,7 @@
                 android:background="@drawable/box"
                 android:gravity="center_horizontal|center_vertical"
                 android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="28sp"
                 android:textStyle="bold" />
 
@@ -266,6 +280,7 @@
                 android:background="@drawable/box"
                 android:gravity="center_horizontal|center_vertical"
                 android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="28sp"
                 android:textStyle="bold" />
 
@@ -276,6 +291,7 @@
                 android:background="@drawable/box"
                 android:gravity="center_horizontal|center_vertical"
                 android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="28sp"
                 android:textStyle="bold" />
 
@@ -296,6 +312,7 @@
                 android:background="@drawable/box"
                 android:gravity="center_horizontal|center_vertical"
                 android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="28sp"
                 android:textStyle="bold" />
 
@@ -306,6 +323,7 @@
                 android:background="@drawable/box"
                 android:gravity="center_horizontal|center_vertical"
                 android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="28sp"
                 android:textStyle="bold" />
 
@@ -316,6 +334,7 @@
                 android:background="@drawable/box"
                 android:gravity="center_horizontal|center_vertical"
                 android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="28sp"
                 android:textStyle="bold" />
 
@@ -326,6 +345,7 @@
                 android:background="@drawable/box"
                 android:gravity="center_horizontal|center_vertical"
                 android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="28sp"
                 android:textStyle="bold" />
 
@@ -336,6 +356,7 @@
                 android:background="@drawable/box"
                 android:gravity="center_horizontal|center_vertical"
                 android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="28sp"
                 android:textStyle="bold" />
 
@@ -356,6 +377,7 @@
                 android:background="@drawable/box"
                 android:gravity="center_horizontal|center_vertical"
                 android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="28sp"
                 android:textStyle="bold" />
 
@@ -366,6 +388,7 @@
                 android:background="@drawable/box"
                 android:gravity="center_horizontal|center_vertical"
                 android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="28sp"
                 android:textStyle="bold" />
 
@@ -376,6 +399,7 @@
                 android:background="@drawable/box"
                 android:gravity="center_horizontal|center_vertical"
                 android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="28sp"
                 android:textStyle="bold" />
 
@@ -386,6 +410,7 @@
                 android:background="@drawable/box"
                 android:gravity="center_horizontal|center_vertical"
                 android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="28sp"
                 android:textStyle="bold" />
 
@@ -396,6 +421,7 @@
                 android:background="@drawable/box"
                 android:gravity="center_horizontal|center_vertical"
                 android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="28sp"
                 android:textStyle="bold" />
 
@@ -405,6 +431,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.2" />
+
+        <TextView
+            android:id="@+id/word"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="WORDS"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="34sp"
+            android:visibility="invisible" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -428,6 +465,8 @@
                     android:backgroundTintMode="src_atop"
                     android:elegantTextHeight="true"
                     android:onClick="inputLetter"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
                     android:text="Q"
                     android:textSize="12sp"
                     android:textStyle="normal" />
@@ -442,6 +481,8 @@
                     android:backgroundTintMode="src_atop"
                     android:elegantTextHeight="true"
                     android:onClick="inputLetter"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
                     android:text="W"
                     android:textSize="12sp"
                     android:textStyle="normal" />
@@ -456,6 +497,8 @@
                     android:backgroundTintMode="src_atop"
                     android:elegantTextHeight="true"
                     android:onClick="inputLetter"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
                     android:text="E"
                     android:textSize="12sp"
                     android:textStyle="normal" />
@@ -470,6 +513,8 @@
                     android:backgroundTintMode="src_atop"
                     android:elegantTextHeight="true"
                     android:onClick="inputLetter"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
                     android:text="R"
                     android:textSize="12sp"
                     android:textStyle="normal" />
@@ -484,6 +529,8 @@
                     android:backgroundTintMode="src_atop"
                     android:elegantTextHeight="true"
                     android:onClick="inputLetter"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
                     android:text="T"
                     android:textSize="12sp"
                     android:textStyle="normal" />
@@ -498,6 +545,8 @@
                     android:backgroundTintMode="src_atop"
                     android:elegantTextHeight="true"
                     android:onClick="inputLetter"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
                     android:text="Y"
                     android:textSize="12sp"
                     android:textStyle="normal" />
@@ -512,6 +561,8 @@
                     android:backgroundTintMode="src_atop"
                     android:elegantTextHeight="true"
                     android:onClick="inputLetter"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
                     android:text="U"
                     android:textSize="12sp"
                     android:textStyle="normal" />
@@ -526,6 +577,8 @@
                     android:backgroundTintMode="src_atop"
                     android:elegantTextHeight="true"
                     android:onClick="inputLetter"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
                     android:text="I"
                     android:textSize="12sp"
                     android:textStyle="normal" />
@@ -540,6 +593,8 @@
                     android:backgroundTintMode="src_atop"
                     android:elegantTextHeight="true"
                     android:onClick="inputLetter"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
                     android:text="O"
                     android:textSize="12sp"
                     android:textStyle="normal" />
@@ -554,6 +609,8 @@
                     android:backgroundTintMode="src_atop"
                     android:elegantTextHeight="true"
                     android:onClick="inputLetter"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
                     android:text="P"
                     android:textSize="12sp"
                     android:textStyle="normal" />
@@ -573,6 +630,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:onClick="inputLetter"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
                     android:text="A"
                     android:textSize="12sp" />
 
@@ -583,6 +642,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:onClick="inputLetter"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
                     android:text="S"
                     android:textSize="12sp"
                     tools:ignore="TouchTargetSizeCheck" />
@@ -594,6 +655,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:onClick="inputLetter"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
                     android:text="D"
                     android:textSize="12sp" />
 
@@ -604,6 +667,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:onClick="inputLetter"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
                     android:text="F"
                     android:textSize="12sp" />
 
@@ -614,6 +679,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:onClick="inputLetter"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
                     android:text="G"
                     android:textSize="12sp" />
 
@@ -624,6 +691,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:onClick="inputLetter"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
                     android:text="H"
                     android:textSize="12sp" />
 
@@ -634,6 +703,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:onClick="inputLetter"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
                     android:text="J"
                     android:textSize="12sp" />
 
@@ -644,6 +715,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:onClick="inputLetter"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
                     android:text="K"
                     android:textSize="12sp" />
 
@@ -654,6 +727,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:onClick="inputLetter"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
                     android:text="L"
                     android:textSize="12sp" />
 
@@ -673,6 +748,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="0"
                     android:onClick="tryAttempt"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
                     android:text="Enter"
                     android:textSize="12sp" />
 
@@ -683,6 +760,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="2"
                     android:onClick="inputLetter"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
                     android:text="Z"
                     android:textSize="12sp" />
 
@@ -693,6 +772,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="2"
                     android:onClick="inputLetter"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
                     android:text="X"
                     android:textSize="12sp" />
 
@@ -703,6 +784,9 @@
                     android:layout_height="match_parent"
                     android:layout_weight="2"
                     android:onClick="inputLetter"
+                    android:paddingLeft="4dp"
+
+                    android:paddingRight="4dp"
                     android:text="C"
                     android:textSize="12sp" />
 
@@ -713,6 +797,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="2"
                     android:onClick="inputLetter"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
                     android:text="V"
                     android:textSize="12sp" />
 
@@ -723,6 +809,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="2"
                     android:onClick="inputLetter"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
                     android:text="B"
                     android:textSize="12sp" />
 
@@ -733,6 +821,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="2"
                     android:onClick="inputLetter"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
                     android:text="N"
                     android:textSize="12sp" />
 
@@ -743,17 +833,25 @@
                     android:layout_height="match_parent"
                     android:layout_weight="2"
                     android:onClick="inputLetter"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
                     android:text="M"
                     android:textSize="12sp" />
 
                 <Button
                     android:id="@+id/btnDel"
                     style="@style/Widget.AppCompat.Button.Small"
-                    android:layout_width="wrap_content"
+
+                    android:layout_width="70dp"
                     android:layout_height="match_parent"
                     android:layout_weight="0"
-                    android:text="del"
+
                     android:onClick="removeLetter"
+
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:text="del"
+                    android:textColor="#FFFFFF"
                     android:textSize="12sp" />
             </LinearLayout>
         </LinearLayout>

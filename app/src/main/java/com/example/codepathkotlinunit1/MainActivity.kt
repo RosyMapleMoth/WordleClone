@@ -84,7 +84,7 @@ class MainActivity : AppCompatActivity() {
     fun inputLetter(string: String)
     {
         // escape if we already have a full test word
-        if (LetterOpen > 4)
+        if (LetterOpen > 4 || curGuess > 5)
         {
             return
         }
@@ -96,7 +96,7 @@ class MainActivity : AppCompatActivity() {
     fun inputLetter(view: View)
     {
         // escape if we already have a full test word
-        if (LetterOpen > 4)
+        if (LetterOpen > 4 || curGuess > 5)
         {
             return
         }
@@ -109,7 +109,7 @@ class MainActivity : AppCompatActivity() {
 
     fun removeLetter()
     {
-        if (LetterOpen < 1)
+        if (LetterOpen < 1 || curGuess > 5)
         {
             return
         }
@@ -121,7 +121,7 @@ class MainActivity : AppCompatActivity() {
 
     fun removeLetter(view: View)
     {
-        if (LetterOpen < 1)
+        if (LetterOpen < 1 || curGuess > 5)
         {
             return
         }
@@ -138,7 +138,7 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this,"only 5 letter words are acceptable",Toast.LENGTH_SHORT)
             return
         }
-        if (curGuess > 4)
+        if (curGuess > 5)
         {
             Toast.makeText(this,"you only have 5 guesses",Toast.LENGTH_SHORT)
             return
@@ -156,7 +156,7 @@ class MainActivity : AppCompatActivity() {
     private fun attmept()
     {
         var thisInput = inputString.clone()
-        var thisAttmept = attemptVisual.clone()
+        var thisAttmept = inputVisual.clone()
         for (i in 0..4 )
         {
             val animationFadeOut = AnimationUtils.loadAnimation(this, R.anim.foldout)
@@ -241,10 +241,21 @@ class MainActivity : AppCompatActivity() {
                 thisAttmept[i]?.startAnimation(animationFadeIn)
             }
         }
-        curGuess++
         if (curGuess < 5)
         {
-            attemptVisual = grabViews(attemptRows[curGuess] as ViewGroup)
+            inputVisual = grabViews(attemptRows[curGuess] as ViewGroup)
+            for (i in 0..4)
+            {
+                inputVisual[i]?.background = getDrawable(R.drawable.boxguess)
+            }
+        }
+        curGuess++
+        if (curGuess >
+            5)
+        {
+            var wordView = findViewById<TextView>(R.id.word)
+            wordView.text = word.joinToString(separator = "")
+            wordView.visibility = View.VISIBLE
         }
         removeLetter()
         removeLetter()
