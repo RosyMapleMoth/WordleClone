@@ -3,11 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@color/eggshell"
     android:layout_height="match_parent"
+    style="@style/Theme.App"
     tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/Theme.App"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
 
     <LinearLayout
         android:layout_width="match_parent"
+        android:background="@color/eggshell"
         android:layout_height="match_parent"
         android:layout_gravity="center_vertical"
         android:orientation="vertical"
@@ -17,6 +29,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <Space
+            android:background="#ffffff"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0" />
@@ -771,6 +784,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
+                    android:backgroundTintMode="add"
                     android:onClick="inputLetter"
                     android:paddingLeft="4dp"
                     android:paddingRight="4dp"
@@ -783,9 +797,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
+
                     android:onClick="inputLetter"
                     android:paddingLeft="4dp"
-
                     android:paddingRight="4dp"
                     android:text="C"
                     android:textSize="12sp" />
@@ -841,17 +855,13 @@
                 <Button
                     android:id="@+id/btnDel"
                     style="@style/Widget.AppCompat.Button.Small"
-
                     android:layout_width="70dp"
                     android:layout_height="match_parent"
                     android:layout_weight="0"
-
                     android:onClick="removeLetter"
-
                     android:paddingLeft="4dp"
                     android:paddingRight="4dp"
                     android:text="del"
-                    android:textColor="#FFFFFF"
                     android:textSize="12sp" />
             </LinearLayout>
         </LinearLayout>
